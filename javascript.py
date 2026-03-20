@@ -2,7 +2,7 @@ def HelloWorld(s):
     print(s)
     
 def WorldHello(pp):
-    print(str(reversed(pp)))
+    print(pp[::-1])
     
 # HelloWorld("Print")
-WorldHello("Print")
+# WorldHello("Mango")
